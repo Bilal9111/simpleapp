@@ -11,6 +11,7 @@ development:
   encoding: utf8
   database: simpleapp_production
   pool: 5
+  host: localhost
   username: simpleapp
   password: bilal911
 
@@ -19,6 +20,7 @@ test: &TEST
   encoding: utf8
   database: simpleapp_production
   pool: 5
+  host: localhost
   username: simpleapp
   password: bilal911
 
@@ -27,5 +29,6 @@ production:
   encoding: utf8
   database: simpleapp_production
   pool: 5
+  host: localhost
   username: simpleapp
   password: bilal911
