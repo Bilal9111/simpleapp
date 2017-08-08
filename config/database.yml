@@ -9,7 +9,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: project_development
+  database: simpleapp_production
   pool: 5
   username: simpleapp
   password: bilal911
@@ -17,7 +17,7 @@ development:
 test: &TEST
   adapter: postgresql
   encoding: utf8
-  database: project_test
+  database: simpleapp_production
   pool: 5
   username: simpleapp
   password: bilal911
@@ -25,7 +25,7 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: utf8
-  database: project_production
+  database: simpleapp_production
   pool: 5
   username: simpleapp
   password: bilal911
